@@ -643,7 +643,7 @@ namespace PdfSharp.Pdf.Content
             else if (ch == '\xFF' && _nextChar == '\xFE')  // Little endian?
             {
                 // Is this possible?
-                Debug.Assert(false, "Found UTF-16LE string. Please send us the PDF file and we will fix it (issues (at) pdfsharp.net).");
+                Debug.Assert(false, "Found UTF-16LE string. Please send us the PDF file and we will fix it (an issue at github.com/respellion/respdfsharp).");
                 return Symbol = CSymbol.None;
             }
             else

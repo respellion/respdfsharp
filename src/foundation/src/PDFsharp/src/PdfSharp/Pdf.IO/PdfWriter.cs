@@ -605,7 +605,7 @@ namespace PdfSharp.Pdf.IO
         // ReSharper disable once IdentifierTypo
         public void WriteEof(PdfDocument document, SizeType startxref)
         {
-            WriteRaw($"% Created with PDFsharp {PdfSharpProductVersionInformation.SemanticVersion} ({Capabilities.Build.BuildName}) under .NET {Capabilities.Build.Framework}\n");
+            WriteRaw($"% Created with ResPdfSharp {PdfSharpProductVersionInformation.SemanticVersion} ({Capabilities.Build.BuildName}) under .NET {Capabilities.Build.Framework}\n");
 #if DEBUG
             WriteRaw($"% Branch {SemVersionInformation.BranchName} ({SemVersionInformation.Sha}) {SemVersionInformation.CommitDate}\n");
 #endif

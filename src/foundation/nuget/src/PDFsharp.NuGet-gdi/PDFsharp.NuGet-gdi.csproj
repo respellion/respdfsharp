@@ -13,7 +13,7 @@
     <IsPackable>true</IsPackable>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <NuspecFile>$(MSBuildThisFileDirectory)$(MSBuildProjectName)$(NuGetNuspecTag).nuspec</NuspecFile>
-    <NuGetId>PDFsharp-GDI</NuGetId>
+    <NuGetId>ResPdfSharp-GDI</NuGetId>
     <NuGetId Condition=" '$(Configuration)'=='Debug' ">$(NuGetId)-DEBUG</NuGetId>
     <NuGetTitle>PDFsharp for Windows Forms apps</NuGetTitle>
     <NuGetDescription Condition=" '$(Configuration)'=='Debug' ">$(DebugBuildMessage)%0D$(NuGetDescription)</NuGetDescription>

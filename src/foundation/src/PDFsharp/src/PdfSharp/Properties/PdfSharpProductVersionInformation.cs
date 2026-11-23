@@ -19,7 +19,7 @@ namespace PdfSharp
         /// <summary>
         /// The title of the product.
         /// </summary>
-        public const string Title = "PDFsharp";
+        public const string Title = "ResPdfSharp";  // Fork of PDFsharp; PDFsharp is a trademark of empira Software GmbH.
 
         /// <summary>
         /// A characteristic description of the product.
@@ -75,7 +75,7 @@ namespace PdfSharp
         /// <summary>
         /// The home page of this product.
         /// </summary>
-        public const string Url = "www.pdfsharp.com";
+        public const string Url = "github.com/respellion/respdfsharp";
 
         /// <summary>
         /// Unused.
@@ -85,22 +85,22 @@ namespace PdfSharp
         /// <summary>
         /// The company that created/owned the product.
         /// </summary>
-        public const string Company = "empira Software GmbH, Troisdorf (Cologne Area), Germany";
+        public const string Company = "Respellion (based on PDFsharp by empira Software GmbH, Troisdorf, Germany)";
 
         /// <summary>
         /// The name of the product.
         /// </summary>
-        public const string Product = "PDFsharp";
+        public const string Product = "ResPdfSharp";
 
         /// <summary>
         /// The copyright information.
         /// </summary>
-        public const string Copyright = "Copyright © 2005-2026 empira Software GmbH."; // Not used as NuGet Copyright. See Directory.Build.Props.
+        public const string Copyright = "Copyright © 2005-2026 empira Software GmbH; ResPdfSharp parts © Respellion."; // Not used as NuGet Copyright. See Directory.Build.Props.
 
         /// <summary>
         /// The trademark of the product.
         /// </summary>
-        public const string Trademark = "PDFsharp";
+        public const string Trademark = "ResPdfSharp (PDFsharp is a trademark of empira Software GmbH)";
 
         /// <summary>
         /// Unused.
@@ -130,31 +130,31 @@ namespace PdfSharp
         /// or characters that are invalid in an URL. In general, they follow the same rules as .NET namespaces do.
         /// So Foo.Bar is a valid ID, Foo! and Foo Bar are not. 
         /// </summary>
-        public const string NuGetID = "PDFsharp";
+        public const string NuGetID = "ResPdfSharp";
 
         /// <summary>
         /// Nuspec Doc: The human-friendly title of the package displayed in the Manage NuGet Packages dialog.
         /// If none is specified, the ID is used instead. 
         /// </summary>
-        public const string NuGetTitle = "PDFsharp";
+        public const string NuGetTitle = "ResPdfSharp";
 
         /// <summary>
         /// Nuspec Doc: A comma-separated list of authors of the package code.
         /// </summary>
-        public const string NuGetAuthors = "empira Software GmbH";
+        public const string NuGetAuthors = "Respellion";
 
         /// <summary>
         /// Nuspec Doc: A comma-separated list of the package creators. This is often the same list as in authors.
         /// This is ignored when uploading the package to the NuGet.org Gallery. 
         /// </summary>
-        public const string NuGetOwners = "empira Software GmbH";
+        public const string NuGetOwners = "Respellion";
 
         /// <summary>
         /// Nuspec Doc: A long description of the package. This shows up in the right pane of the Add Package Dialog
         /// as well as in the Package Manager Console when listing packages using the Get-Package command. 
         /// </summary>
         // This assignment must be written in one line because it will be parsed from a PS1 file.
-        public const string NuGetDescription = "PDFsharp is the Open Source .NET library that easily creates and processes PDF documents on the fly from any .NET language. The same drawing routines can be used to create PDF documents, draw on the screen, or send output to any printer.";
+        public const string NuGetDescription = "ResPdfSharp is the Open Source .NET library (fork of PDFsharp) that easily creates and processes PDF documents on the fly from any .NET language. The same drawing routines can be used to create PDF documents, draw on the screen, or send output to any printer.";
 
         /// <summary>
         /// Nuspec Doc: A description of the changes made in each release of the package. This field only shows up
@@ -181,18 +181,18 @@ namespace PdfSharp
         /// http://www.pdfsharp.net/NuGetPackage_PDFsharp-GDI.ashx
         /// http://www.pdfsharp.net/NuGetPackage_PDFsharp-WPF.ashx
         /// </remarks>
-        public const string NuGetProjectUrl = "www.pdfsharp.net";
+        public const string NuGetProjectUrl = "github.com/respellion/respdfsharp";
 
         /// <summary>
         /// Nuspec Doc: A URL for the image to use as the icon for the package in the Manage NuGet Packages
         /// dialog box. This should be a 32x32-pixel .png file that has a transparent background.
         /// </summary>
-        public const string NuGetIconUrl = "http://www.pdfsharp.net/resources/PDFsharp-Logo-32x32.png";
+        public const string NuGetIconUrl = "";
 
         /// <summary>
         /// Nuspec Doc: A link to the license that the package is under.
         /// </summary>
-        public const string NuGetLicenseUrl = "http://www.pdfsharp.net/PDFsharp_License.ashx";
+        public const string NuGetLicenseUrl = "https://github.com/respellion/respdfsharp/blob/main/LICENSE";
 
         /// <summary>
         /// Nuspec Doc: A Boolean value that specifies whether the client needs to ensure that the package license (described by licenseUrl) is accepted before the package is installed.
@@ -203,7 +203,7 @@ namespace PdfSharp
         /// Nuspec Doc: A space-delimited list of tags and keywords that describe the package. This information is used to help make sure users can find the package using
         /// searches in the Add Package Reference dialog box or filtering in the Package Manager Console window.
         /// </summary>
-        public const string NuGetTags = "PDFsharp PDF creation";
+        public const string NuGetTags = "ResPdfSharp PDFsharp fork PDF creation";
 #endif
 
         /// <summary>

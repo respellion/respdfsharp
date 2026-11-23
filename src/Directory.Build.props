@@ -1,4 +1,4 @@
-<Project>
+﻿<Project>
 
   <PropertyGroup>
     <IsPackable>false</IsPackable>
@@ -107,17 +107,17 @@
 
   <PropertyGroup>
     <!-- Default values for assembly attributes and NuGet. -->
-    <Product>PDFsharp</Product>
-    <Company>empira Software</Company>
-    <Copyright>© 2026 empira Software GmbH</Copyright>
-    <CopyrightPdfSharp>© 2005-2026 empira Software GmbH</CopyrightPdfSharp>
-    <CopyrightMigraDoc>© 2001-2026 empira Software GmbH</CopyrightMigraDoc>
+    <Product>ResPdfSharp</Product>
+    <Company>Respellion</Company>
+    <Copyright>© 2005-2026 empira Software GmbH — ResPdfSharp fork © Respellion</Copyright>
+    <CopyrightPdfSharp>© 2005-2026 empira Software GmbH; ResPdfSharp parts © Respellion</CopyrightPdfSharp>
+    <CopyrightMigraDoc>© 2001-2026 empira Software GmbH; ResPdfSharp parts © Respellion</CopyrightMigraDoc>
     <!-- PDFsharp Team is a GitHub user. -->
-    <Authors>PDFsharp Team</Authors>
-    <Owners>empira Software GmbH</Owners>
+    <Authors>Respellion (fork of the PDFsharp Team project)</Authors>
+    <Owners>Respellion</Owners>
     <!-- Required assets version. Will be downloaded automatically on build if not already downloaded. -->
     <RequiredAssetsVersion>1032</RequiredAssetsVersion>
-    <PDFsharpStronNamePublicKey>00240000048000009400000006020000002400005253413100040000010001008794e803e566eccc3c9181f52c4f7044e5442cc2ce3cbba9fc11bc4186ba2e446cd31deea20c1a8f499e978417fad2bc74143a4f8398f7cf5c5c0271b0f7fe907c537cff28b9d582da41289d1dae90168a3da2a5ed1115210a18fdae832479d3e639ca4003286ba8b98dc9144615c040ed838981ac816112df3b5a9e7cab4fbb</PDFsharpStronNamePublicKey>
+    <PDFsharpStronNamePublicKey>002400000480000094000000060200000024000052534131000400000100010089289b061b2f25aac8bcafe727561bd4106b1ba805c22e0d6e5d47777830fd2985543dce8bf9f33da190a63f7a33bef8aa21fb0d1ec7d87410c87bd211ae1ca54d4b1b7d911a83d06f2890c1db95bf41c7d34c4f0cb02c8210294d01fd3021d879d40854efa66d77d4ed16054394cb4bc5231e7a10d9073fdb24bb6a1a316288</PDFsharpStronNamePublicKey>
   </PropertyGroup>
 
   <!-- Additional dynamic values for AssemblyXxxAttribute. -->

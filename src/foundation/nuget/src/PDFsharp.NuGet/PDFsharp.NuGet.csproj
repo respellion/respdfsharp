@@ -13,9 +13,9 @@
     <IsPackable>true</IsPackable>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <NuspecFile>$(MSBuildThisFileDirectory)$(MSBuildProjectName)$(NuGetNuspecTag).nuspec</NuspecFile>
-    <NuGetId>PDFsharp</NuGetId>
+    <NuGetId>ResPdfSharp</NuGetId>
     <NuGetId Condition=" '$(Configuration)'=='Debug' ">$(NuGetId)-DEBUG</NuGetId>
-    <NuGetTitle>PDFsharp for Windows and Linux</NuGetTitle>
+    <NuGetTitle>ResPdfSharp for Windows and Linux</NuGetTitle>
     <NuGetDescription Condition=" '$(Configuration)'=='Debug' ">$(DebugBuildMessage)%0D$(NuGetDescription)</NuGetDescription>
     <NuGetSummary>A .NET library for processing PDF.</NuGetSummary>
     <NuGetTags>$(NuGetTags_PdfSharp)</NuGetTags>

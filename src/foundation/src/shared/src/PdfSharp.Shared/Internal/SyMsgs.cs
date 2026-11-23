@@ -39,7 +39,7 @@ namespace PdfSharp.Internal
             => new(SyMsgId.UnexpectedNullValueRetrieved,
                 "A function returns null, but a value was expected."
                 + (hint != null ? " " + hint : "")
-                + " " + "[[Link to pdfsharp.com]]");
+                + " " + "[[See the README of your ResPdfSharp distribution]]");
 
         // ----- PDF object model ------------------------------------------------------------------
 

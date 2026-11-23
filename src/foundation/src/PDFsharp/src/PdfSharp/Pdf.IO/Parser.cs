@@ -177,7 +177,7 @@ namespace PdfSharp.Pdf.IO
             //Debug.Assert(objectID == new PdfObjectID(objectNumber, generationNumber));
             if (fromObjectStream is false && objectID != new PdfObjectID(objectNumber, generationNumber))
             {
-                // Investigate if this happens. Please send us the PDF file for analysing it (issues (at) pdfsharp.net).
+                // Investigate if this happens. Please send us the PDF file for analysing it (an issue at github.com/respellion/respdfsharp).
                 PdfSharpLogHost.Logger.LogError("Something happened in an object stream that is not expected but can be ignored.");
                 // A special kind of bug? Or is this an undocumented PDF feature?
                 // PDF4NET 2.6 provides a sample called 'Unicode', which produces a file 'unicode.pdf'
@@ -456,7 +456,7 @@ namespace PdfSharp.Pdf.IO
                 PdfObject lengthObject;
                 if (reference.Position == -1 && reference.Value != null!)
                 {
-                    // If somebody came here, please send us your PDF file so that we can fix it (issues (at) pdfsharp.net).
+                    // If somebody came here, please send us your PDF file so that we can fix it (an issue at github.com/respellion/respdfsharp).
                     if (reference.Value is not PdfIntegerObject pdfIntegerObject)
                     {
                         SuppressExceptions.HandleError(suppressObjectOrderExceptions, () => throw TH.ObjectNotAvailableException_CannotRetrieveStreamLength(_lexer.Position));
@@ -479,7 +479,7 @@ namespace PdfSharp.Pdf.IO
                     }
                     catch (Exception ex)
                     {
-                        // If somebody came here, please send us your PDF file so that we can fix it (issues (at) pdfsharp.net).
+                        // If somebody came here, please send us your PDF file so that we can fix it (an issue at github.com/respellion/respdfsharp).
                         throw TH.ObjectNotAvailableException_CannotRetrieveStreamLength(_lexer.Position, ex);
                     }
                     RestoreState(state);

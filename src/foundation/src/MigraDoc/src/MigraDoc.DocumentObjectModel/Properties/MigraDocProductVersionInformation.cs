@@ -18,7 +18,7 @@ namespace MigraDoc
         /// <summary>
         /// The title of the product.
         /// </summary>
-        public const string Title = "empira MigraDoc";
+        public const string Title = "ResPdfSharp MigraDoc";
 
         /// <summary>
         /// A characteristic description of the product.
@@ -69,7 +69,7 @@ namespace MigraDoc
         /// <summary>
         /// The home page of this product.
         /// </summary>
-        public const string Url = "www.pdfsharp.com";
+        public const string Url = "github.com/respellion/respdfsharp";
 
         /// <summary>
         /// Unused.
@@ -79,22 +79,22 @@ namespace MigraDoc
         /// <summary>
         /// The company that created/owned the product.
         /// </summary>
-        public const string Company = "empira Software GmbH, Troisdorf (Cologne Area), Germany";
+        public const string Company = "Respellion (based on MigraDoc/PDFsharp by empira Software GmbH, Troisdorf, Germany)";
 
         /// <summary>
         /// The name of the product.
         /// </summary>
-        public const string Product = "empira MigraDoc";
+        public const string Product = "ResPdfSharp MigraDoc";
 
         /// <summary>
         /// The copyright information.
         /// </summary>
-        public const string Copyright = "Copyright © 2001-2026 empira Software GmbH."; // Not used as NuGet Copyright. See Directory.Build.Props.
+        public const string Copyright = "Copyright © 2001-2026 empira Software GmbH; ResPdfSharp parts © Respellion."; // Not used as NuGet Copyright. See Directory.Build.Props.
 
         /// <summary>
         /// The trademark of the product.
         /// </summary>
-        public const string Trademark = "empira MigraDoc";
+        public const string Trademark = "ResPdfSharp (MigraDoc is a trademark of empira Software GmbH)";
 
         /// <summary>
         /// Unused.
@@ -117,22 +117,22 @@ namespace MigraDoc
         /// Package IDs may not contain any spaces or characters that are invalid in an URL. In general, they follow the same rules as .NET namespaces do.
         /// So Foo.Bar is a valid ID, Foo! and Foo Bar are not. 
         /// </summary>
-        public const string NuGetID = "PDFsharp-MigraDoc";
+        public const string NuGetID = "ResPdfSharp-MigraDoc";
 
         /// <summary>
         /// Nuspec Doc: The human-friendly title of the package displayed in the Manage NuGet Packages dialog. If none is specified, the ID is used instead. 
         /// </summary>
-        public const string NuGetTitle = "PDFsharp + MigraDoc";
+        public const string NuGetTitle = "ResPdfSharp incl. MigraDoc";
 
         /// <summary>
         /// Nuspec Doc: A comma-separated list of authors of the package code.
         /// </summary>
-        public const string NuGetAuthors = "empira Software GmbH";
+        public const string NuGetAuthors = "Respellion";
 
         /// <summary>
         /// Nuspec Doc: A comma-separated list of the package creators. This is often the same list as in authors. This is ignored when uploading the package to the NuGet.org Gallery. 
         /// </summary>
-        public const string NuGetOwners = "empira Software GmbH";
+        public const string NuGetOwners = "Respellion";
 
         /// <summary>
         /// Nuspec Doc: A long description of the package. This shows up in the right pane of the Add Package Dialog as well as in the Package Manager Console when listing packages using the Get-Package command. 
@@ -158,17 +158,17 @@ namespace MigraDoc
         /// <summary>
         /// Nuspec Doc: A URL for the home page of the package.
         /// </summary>
-        public const string NuGetProjectUrl = "http://www.pdfsharp.net/";
+        public const string NuGetProjectUrl = "github.com/respellion/respdfsharp";
 
         /// <summary>
         /// Nuspec Doc: A URL for the image to use as the icon for the package in the Manage NuGet Packages dialog box. This should be a 32x32-pixel .png file that has a transparent background.
         /// </summary>
-        public const string NuGetIconUrl = "http://www.pdfsharp.net/resources/MigraDoc-Logo-32x32.png";
+        public const string NuGetIconUrl = "";
 
         /// <summary>
         /// Nuspec Doc: A link to the license that the package is under.
         /// </summary>                  
-        public const string NuGetLicenseUrl = "http://www.pdfsharp.net/MigraDoc_License.ashx";
+        public const string NuGetLicenseUrl = "https://github.com/respellion/respdfsharp/blob/main/LICENSE";
 
         /// <summary>
         /// Nuspec Doc: A boolean value that specifies whether the client needs to ensure that the package license (described by licenseUrl) is accepted before the package is installed.

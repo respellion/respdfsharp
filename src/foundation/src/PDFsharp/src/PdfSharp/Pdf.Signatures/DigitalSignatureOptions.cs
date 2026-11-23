@@ -36,7 +36,7 @@ namespace PdfSharp.Pdf.Signatures
         /// <summary>
         /// Gets or sets the name of the application used to sign the document.
         /// </summary>
-        public string AppName { get; init; } = "PDFsharp http://www.pdfsharp.com";
+        public string AppName { get; init; } = "ResPdfSharp https://github.com/respellion/respdfsharp";
 
         /// <summary>
         /// The location of the visual representation on the selected page.

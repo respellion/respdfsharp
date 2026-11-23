@@ -3,4 +3,4 @@ The package ‘PdfSharp’ can be used on any platform including Windows and Lin
 The packages ‘PDFsharp-gdi’ and ‘PDFsharp-wpf’ can be used under Windows only. The Target Frameworks are ‘net8.0-windows’, ‘net9.0-windows’, ‘net10.0-windows’ and ‘net462’.
 We also publish packages that contain PDFsharp plus MigraDoc.
 See the project docs site for further information:
-https://docs.pdfsharp.net/link/readme-v7.0.html
+https://github.com/respellion/respdfsharp

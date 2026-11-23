@@ -7,18 +7,18 @@ assignees: ''
 
 ---
 
-If you think there is a bug in PDFsharp then please use the IssueSubmissionTemplate to make the issue replicable.  
-https://docs.pdfsharp.net/General/Issue-Reporting.html
+If you think there is a bug in ResPdfSharp then please open an issue with a small, replicable reproduction.  
+https://github.com/respellion/respdfsharp/issues
 
 Thanks.
 
 # Resources
 
 The official project web site:  
-https://docs.pdfsharp.net/
+https://github.com/respellion/respdfsharp
 
 The official peer-to-peer support forum:  
-http://forum.pdfsharp.net/
+https://github.com/respellion/respdfsharp/issues
 
 # Reporting an Issue Here
 ## Expected Behavior
@@ -27,4 +27,4 @@ http://forum.pdfsharp.net/
 
 ## Steps to Reproduce the Behavior
 We strongly recommend using the IssueSubmissionTemplate to make sure we can replicate the issue.  
-https://docs.pdfsharp.net/General/Issue-Reporting.html
+https://github.com/respellion/respdfsharp/issues

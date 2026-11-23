@@ -1,0 +1,32 @@
+# Contributing to ResPdfSharp
+
+Thanks for your interest in contributing!
+
+## License of contributions
+
+ResPdfSharp is MIT licensed (see LICENSE and NOTICE).
+
+By submitting a pull request or commit to this repository you confirm that:
+
+1. You wrote the change yourself or otherwise hold the right to contribute it, and it does
+   not bring AGPL-licensed code from upstream PDFsharp 6.5.0 or later (see FORK.md,
+   "Import policy").
+2. You grant the ResPdfSharp project and its downstream users a perpetual, worldwide,
+   royalty-free, irrevocable MIT license to your contribution as contributed here.
+3. You are allowed to make this grant (your employer/contract, if any, does not forbid it).
+
+This is a license grant, not a copyright assignment: you keep the copyright of your change.
+A commit message sign-off (`Signed-off-by: Name <email>`, DCO-style) is appreciated but the
+submission itself counts as the grant above.
+
+## Upstream changes
+
+Changes from upstream PDFsharp after the fork baseline (`fork-start`, commit 8d818d5) are
+AGPL/commercial and generally cannot be cherry-picked; they must be re-implemented
+independently or carry documented MIT-compatible permission. Explain in the pull request
+where an idea (not code) was taken from.
+
+## Branding
+
+Do not reintroduce upstream logos or branding. "PDFsharp" may be mentioned only to describe
+the origin of the code, never as the name of this product.

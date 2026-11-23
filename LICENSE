@@ -1,6 +1,9 @@
 ﻿Copyright (c) 2001-2026 empira Software GmbH, Troisdorf (Cologne Area), Germany
+ResPdfSharp contributions: Copyright (c) 2026 Respellion
 
-http://docs.pdfsharp.net
+This project is a fork of PDFsharp & MigraDoc as published under the MIT license at
+commit 8d818d5f2ad5087201c4a54be3ab489b4920a6d2 (tag v7.0.0-preview-1). Upstream project:
+http://docs.pdfsharp.net - see NOTICE for attribution and naming terms.
 
 MIT License
 

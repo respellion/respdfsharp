@@ -1,0 +1,79 @@
+ResPdfSharp — Legal notice and attribution
+==========================================
+
+This file is part of the ResPdfSharp documentation and complements, but does not replace,
+the LICENSE file.
+
+1. Provenance
+-------------
+
+ResPdfSharp is a fork of PDFsharp & MigraDoc (https://github.com/empira/PDFsharp),
+taken at commit 8d818d5f2ad5087201c4a54be3ab489b4920a6d2 (tag v7.0.0-preview-1,
+2026-03-24). At that commit the repository contained the MIT LICENSE file reproduced
+in LICENSE (SHA-256: 3c648a5072bd7f7386ca28687780489a708a57ed75f13927bc16dd3e34af3bf7).
+Later upstream releases (6.5.0 and newer, from commit 110751d, 2026-10-14) are dual-licensed
+AGPL / commercial and their changes are NOT automatically eligible for inclusion here.
+Any later upstream change may only be imported if its provenance is documented as
+MIT-compatible.
+
+The archived fork baseline (exact tree of commit 8d818d5, git tag "fork-start") is stored in
+archive/respdfsharp-fork-start-8d818d5.tar.gz
+(SHA-256: 5c96d1a8b35c892e46436706bf384bef488d39d460f9af5030fea833fd425bf3).
+
+2. License of the inherited code
+--------------------------------
+
+The original code remains under the MIT license. The copyright notice of empira Software
+GmbH is reproduced verbatim in LICENSE and must be kept in all copies or substantial
+portions of the inherited code.
+
+3. License of ResPdfSharp changes
+---------------------------------
+
+Original contributions of Respellion to this fork are published under the same MIT license:
+
+MIT License
+
+Copyright (c) 2026 Respellion
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this
+software and associated documentation files (the "Software"), to deal in the Software
+without restriction, including without limitation the rights to use, copy, modify, merge,
+publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons
+to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or
+substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,
+INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR
+PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE
+FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR
+OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
+DEALINGS IN THE SOFTWARE.
+
+4. Third-party components
+-------------------------
+
+BigGustave PNG reader (src/foundation/src/shared/src/PdfSharp.Imaging/Png/BigGustave/) was
+released into the public domain (Unlicense); its LICENSE file is retained in the source tree
+and does not restrict the MIT license.
+
+5. Names, logos, branding
+-------------------------
+
+"PDFsharp", "MigraDoc" and "empira" are the names / trademarks of empira Software GmbH.
+They are not licensed to this fork. This repository therefore:
+  - publishes under the new name "ResPdfSharp" (Respellion Pdf Sharp);
+  - removed the upstream logo/icon from NuGet packaging and the README badges;
+  - uses the words PDFsharp/MigraDoc only attributively, to identify the origin of the code
+    (nominative/descriptive use), never as an indication of source of this fork;
+  - keeps the technical identifiers (namespaces, assembly names) that the MIT license grants
+    the right to copy and adapt.
+No claim of affiliation with or endorsement by empira Software GmbH is made.
+
+6. Contributor agreements
+-------------------------
+
+The upstream project has no Contributor License Agreement (CLA) — see FORK.md. ResPdfSharp
+documents its contribution terms in CONTRIBUTING.

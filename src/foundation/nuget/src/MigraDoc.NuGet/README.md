@@ -4,4 +4,4 @@ MigraDoc is a .NET library that allows developers to create documents such as PD
 
 This package does not depend on Windows and can be used on any .NET compatible platform including Linux and macOS.
 
-See [docs.pdfsharp.net](https://docs.pdfsharp.net) for details.
+See [github.com/respellion/respdfsharp](https://github.com/respellion/respdfsharp) for details.
