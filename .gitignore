@@ -1,6 +1,7 @@
 [Oo]bj/
 [Bb]in/
 assets/
+!docs/assets/
 TestResults/
 localtests/
 .build/
