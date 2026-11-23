@@ -20,6 +20,13 @@ ResPdfSharp changes: Copyright (c) 2026 Respellion
 Published Open Source under the [MIT License](LICENSE). See [NOTICE](NOTICE) for attribution
 and [FORK.md](FORK.md) for the provenance record of this fork.
 
+**Documentation & samples: <https://respellion.github.io/respdfsharp/>** (source in the
+[`docs`](docs) folder of this repository). Install: `dotnet add package ResPdfSharp`
+(current version **10.0.0**, on [nuget.org](https://www.nuget.org/packages/ResPdfSharp/)).
+
+Internal/upstream working notes (not user docs) live in [`docs_old`](docs_old), including
+the maintenance scripts of the original project in `docs_old/dev`.
+
 ## Why this fork exists
 
 With PDFsharp 6.5.0 (2026-10-14, upstream commit `110751d`) the project moved from the MIT
@@ -64,14 +71,14 @@ Note that PowerShell 7 is required to execute the PowerShell scripts that come w
 
 Assets like bitmaps, fonts, or PDF files are not part of the repository anymore.
 You must download them before compiling the solution for the first time.
-Use `download-assets.ps1` in the `dev` folder to create `assets` folder required for some unit tests and needed by some projects.
+Use `download-assets.ps1` in the `docs_old/dev` folder to create `assets` folder required for some unit tests and needed by some projects.
 The script fetches the unmodified assets from the upstream host `assets.pdfsharp.net`; the
 fork ships no upstream binaries beyond those build/test assets.
 
 Execute
 
 ```ps
-.\dev\download-assets.ps1
+.\docs_old\dev\download-assets.ps1
 ```
 
 ### Build the solution

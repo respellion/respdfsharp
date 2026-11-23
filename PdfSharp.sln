@@ -316,7 +316,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PdfSharp.Fonts.Test", "src\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PdfSharp.OpenType.Test", "src\foundation\src\shared\tests\PdfSharp.OpenType.Tests\PdfSharp.OpenType.Test.csproj", "{A7A57937-E309-9E58-A3B4-6B268E6933E7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "docs-public", "docs\docs-public.csproj", "{B75C5BBF-4110-E576-C755-66CBF94A4CD9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "docs-public", "docs_old\docs_old_public_ignore.csproj", "{B75C5BBF-4110-E576-C755-66CBF94A4CD9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
