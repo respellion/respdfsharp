@@ -110,8 +110,8 @@
     <Product>ResPdfSharp</Product>
     <Company>Respellion</Company>
     <Copyright>© 2005-2026 empira Software GmbH — ResPdfSharp fork © Respellion</Copyright>
-    <CopyrightPdfSharp>© 2005-2026 empira Software GmbH; ResPdfSharp parts © Respellion</CopyrightPdfSharp>
-    <CopyrightMigraDoc>© 2001-2026 empira Software GmbH; ResPdfSharp parts © Respellion</CopyrightMigraDoc>
+    <CopyrightPdfSharp>© 2005-2026 empira Software GmbH · ResPdfSharp parts © Respellion</CopyrightPdfSharp>
+    <CopyrightMigraDoc>© 2001-2026 empira Software GmbH · ResPdfSharp parts © Respellion</CopyrightMigraDoc>
     <!-- PDFsharp Team is a GitHub user. -->
     <Authors>Respellion (fork of the PDFsharp Team project)</Authors>
     <Owners>Respellion</Owners>

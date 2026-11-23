@@ -95,7 +95,7 @@ namespace PdfSharp
         /// <summary>
         /// The copyright information.
         /// </summary>
-        public const string Copyright = "Copyright © 2005-2026 empira Software GmbH; ResPdfSharp parts © Respellion."; // Not used as NuGet Copyright. See Directory.Build.Props.
+        public const string Copyright = "Copyright © 2005-2026 empira Software GmbH · ResPdfSharp parts © Respellion."; // Not used as NuGet Copyright. See Directory.Build.Props.
 
         /// <summary>
         /// The trademark of the product.
