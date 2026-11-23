@@ -80,6 +80,13 @@
   </ItemGroup>
 
   <ItemGroup>
+    <!-- ResPdfSharp fork: fonts embedded for the out-of-the-box fallback font resolver.
+         Arimo/Tinos/Cousine, SIL OFL 1.1 (license texts embedded; see THIRD-PARTY-NOTICES.txt). -->
+    <EmbeddedResource Include="Fonts\EmbeddedFonts\*.ttf" />
+    <EmbeddedResource Include="Fonts\EmbeddedFonts\*-OFL.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="Fonts.OpenType\" />
   </ItemGroup>
 

@@ -1,4 +1,4 @@
-﻿ResPdfSharp (an MIT fork of PDFsharp) is the Open Source library for creating and modifying PDF documents using .NET. It has an easy-to-use API that allows developers to generate or modify PDF files programmatically. ResPdfSharp can be used for various applications, including creating reports, invoices, and other types of documents.
+ResPdfSharp (an MIT fork of PDFsharp) is the Open Source library for creating and modifying PDF documents using .NET. It has an easy-to-use API that allows developers to generate or modify PDF files programmatically. ResPdfSharp can be used for various applications, including creating reports, invoices, and other types of documents. Out of the box it embeds fallback fonts (Arimo, Tinos, Cousine under SIL OFL 1.1) so text rendering works on any platform, including Linux and containers without system fonts.
 
 This package does not depend on Windows and can be used on any .NET compatible platform including Linux and macOS.
 

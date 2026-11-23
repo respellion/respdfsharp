@@ -65,6 +65,15 @@ namespace PdfSharp.Fonts
                     // Use fallback font resolver if one is set.
                     fontResolver = GlobalFontSettings.FallbackFontResolver;
 
+                    if (fontResolver == null)
+                    {
+                        // ResPdfSharp fork enhancement: no fallback resolver was set.
+                        // Use the resolver for the fonts embedded in this assembly so
+                        // every font request can be satisfied out of the box, in
+                        // particular on Linux and in containers without platform fonts.
+                        fontResolver = BundledFontResolver.Shared;
+                    }
+
                     if (fontResolver != null)
                     {
                         // Set a flag to prevent the case that a font resolver used as fall back font resolver

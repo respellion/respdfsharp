@@ -27,6 +27,27 @@ license to a dual AGPL / commercial license. The code as of `8d818d5` — the la
 `LICENSE` file was the MIT license — is permanently usable under MIT, and this fork continues
 that MIT line under a new name, without the upstream project's branding.
 
+## Fork features
+
+### Built-in fallback fonts (Linux / containers)
+
+The classic pain point of PDFsharp on Linux: without a custom `IFontResolver` and without
+system fonts (typical in containers), any `new XFont("Arial", ...)` throws. ResPdfSharp
+embeds three font families in the assembly and uses them automatically as the last-resort
+fallback resolver — no configuration required:
+
+- **Arimo** — metric-compatible with Arial/Helvetica
+- **Tinos** — metric-compatible with Times New Roman
+- **Cousine** — metric-compatible with Courier New
+
+All in regular/bold/italic/bold-italic, licensed under the SIL Open Font License 1.1
+(texts embedded and in [THIRD-PARTY-NOTICES.txt](THIRD-PARTY-NOTICES.txt)). Unknown or
+generic family names ("sans-serif", "monospace", …) map heuristically to the closest
+embedded family, so any font request succeeds. Custom resolvers set via
+`GlobalFontSettings.FontResolver` keep priority; the bundled resolver (`PdfSharp.Fonts.BundledFontResolver`)
+only acts when nothing else could resolve the face. Because the substitutes are
+metric-compatible, existing layouts keep their line breaks and page counts.
+
 ## PDFsharp & MigraDoc 7 (original README content)
 
 This is a preview version of the **PDFsharp** project, the main project of PDFsharp & MigraDoc 7 with updates for C# 12 and .NET 8, .NET 9, and .NET 10.
