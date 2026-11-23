@@ -1,6 +1,6 @@
 title: ResPdfSharp
 description: Documentation and samples for ResPdfSharp — the MIT-licensed fork of PDFsharp & MigraDoc. Fonts work out of the box on Linux.
-theme: jekyll-theme-minima
+theme: minima
 show_downloads: false
 header_pages:
   - index.md
