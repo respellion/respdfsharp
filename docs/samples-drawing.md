@@ -7,16 +7,23 @@ permalink: /samples-drawing/
 
 All samples use the `PdfSharp` package only and run on any platform, including Linux.
 
-## Text: alignment, measuring, positioning
+Copy the header below once into `drawing.cs`, then paste any section after it —
+each snippet is a continuation of the same file. Run with `dotnet run drawing.cs`.
 
 ```csharp
+#:package ResPdfSharp@10.0.0
+
 using PdfSharp.Pdf;
 using PdfSharp.Drawing;
 
 using var document = new PdfDocument();
 var page = document.AddPage();
 var gfx = XGraphics.FromPdfPage(page);
+```
 
+## Text: alignment, measuring, positioning
+
+```csharp
 var font = new XFont("Arial", 14);
 
 // Measure before drawing — essential for right/center alignment.

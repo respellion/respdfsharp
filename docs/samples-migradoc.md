@@ -13,6 +13,8 @@ All samples below were compiled and rendered against ResPdfSharp 10.0 on Linux
 with no font setup.
 
 ```csharp
+#:package ResPdfSharp-MigraDoc@10.0.0
+
 using MigraDoc.DocumentObjectModel;
 using MigraDoc.DocumentObjectModel.Tables;
 using MigraDoc.DocumentObjectModel.Fields;
@@ -22,7 +24,7 @@ using MigraDoc.Rendering;
 > **MigraDoc 7 note:** the object model was modernized. Paragraphs are created
 > empty and filled with `AddText(...)` (there is no `new Paragraph("text")`
 > constructor), and tables are built with `Columns.AddColumn()` — see
-> [Migration](migration.html).
+> [Migration](/respdfsharp/migration/).
 
 ## A first document
 
@@ -97,7 +99,7 @@ document.Styles["Normal"].Font.Size = 11;
 ```
 
 Because Arial is covered by the metric-compatible
-[bundled fallback fonts](fonts.html), this looks the same on Windows and Linux.
+[bundled fallback fonts](/respdfsharp/fonts/), this looks the same on Windows and Linux.
 
 ## Page setup, margins, footer with page numbers
 

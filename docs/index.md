@@ -27,7 +27,12 @@ dotnet add package ResPdfSharp-MigraDoc
 
 ## Hello, PDF
 
+One file, no project ceremony. Save as `hello.cs` — .NET 10 file-based apps read
+the package reference straight from the source file:
+
 ```csharp
+#:package ResPdfSharp@10.0.0
+
 using PdfSharp.Pdf;
 using PdfSharp.Drawing;
 
@@ -42,21 +47,25 @@ gfx.DrawString("Hello, ResPdfSharp!", font, XBrushes.Black,
 document.Save("hello.pdf");
 ```
 
+```bash
+dotnet run hello.cs   # → hello.pdf
+```
+
 That's the whole model: a `PdfDocument` holds pages, an `XGraphics` object draws on a
 page with the same API you know from GDI+ (`DrawString`, `DrawLine`, `DrawImage`,
 paths, transforms…).
 
 No font configuration is needed — on Windows the system fonts are used; on Linux and
-inside containers the [bundled fallback fonts](fonts.html) kick in automatically.
+inside containers the [bundled fallback fonts](/respdfsharp/fonts/) kick in automatically.
 
 ## What's on this site
 
-- [Fonts & Linux](fonts.html) — how font resolution works and the bundled fallback.
-- [Drawing samples](samples-drawing.html) — shapes, text, images, transparency.
-- [PDF manipulation samples](samples-pdf.html) — merge, split, security, page sizes.
-- [MigraDoc samples](samples-migradoc.html) — documents, tables, styles, page layout.
-- [Migration from upstream](migration.html) — moving from PDFsharp 6.x/preview.
-- [License & provenance](license.html) — what you may do with this package.
+- [Fonts & Linux](/respdfsharp/fonts/) — how font resolution works and the bundled fallback.
+- [Drawing samples](/respdfsharp/samples-drawing/) — shapes, text, images, transparency.
+- [PDF manipulation samples](/respdfsharp/samples-pdf/) — merge, split, security, page sizes.
+- [MigraDoc samples](/respdfsharp/samples-migradoc/) — documents, tables, styles, page layout.
+- [Migration from upstream](/respdfsharp/migration/) — moving from PDFsharp 6.x/preview.
+- [License & provenance](/respdfsharp/license/) — what you may do with this package.
 
 ## Which package do I need?
 

@@ -5,14 +5,22 @@ permalink: /samples-pdf/
 
 # PDF manipulation samples
 
-Reading and editing existing PDFs with the `PdfSharp` package.
+Reading and editing existing PDFs with the `PdfSharp` package. Start a file
+`pdf.cs` with:
+
+```csharp
+#:package ResPdfSharp@10.0.0
+
+using PdfSharp.Pdf;
+using PdfSharp.Pdf.IO;
+using PdfSharp.Drawing;
+```
+
+…then paste any snippet below into it and run `dotnet run pdf.cs`.
 
 ## Open, inspect, save
 
 ```csharp
-using PdfSharp.Pdf;
-using PdfSharp.Pdf.IO;
-
 using var document = PdfReader.Open("input.pdf", PdfDocumentOpenMode.Modify);
 Console.WriteLine($"Pages: {document.PageCount}, encrypted: {document.SecuritySettings.IsEncrypted}");
 document.Save("output.pdf");
